@@ -18,9 +18,11 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION.yml",
      "lib/ukrainian.rb",
      "test/test_helper.rb",
-     "test/ukrainian_test.rb"
+     "test/ukrainian_test.rb",
+     "ukrainian.gemspec"
   ]
   s.homepage = %q{http://github.com/romanvbabenko/ukrainian}
   s.rdoc_options = ["--charset=UTF-8"]
