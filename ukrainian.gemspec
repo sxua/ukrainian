@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ukrainian}
-  s.version = "1.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["romanvbabenko"]
@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION.yml",
      "lib/ukrainian.rb",
+     "lib/ukrainian.rb",
+     "lib/ukrainian/locale/acitvesupport.yml",
      "test/test_helper.rb",
      "test/ukrainian_test.rb",
      "ukrainian.gemspec"
@@ -28,7 +30,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.4}
-  s.summary = %q{TODO}
+  s.summary = %q{Ukrainian language support for Ruby and Rails}
   s.test_files = [
     "test/test_helper.rb",
      "test/ukrainian_test.rb"
@@ -39,8 +41,11 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+      s.add_runtime_dependency(%q<i18n>, [">= 0"])
     else
+      s.add_dependency(%q<i18n>, [">= 0"])
     end
   else
+    s.add_dependency(%q<i18n>, [">= 0"])
   end
 end
