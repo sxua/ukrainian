@@ -21,8 +21,6 @@ Gem::Specification.new do |s|
      "VERSION.yml",
      "lib/ukrainian.rb",
      "lib/ukrainian.rb",
-     "lib/ukrainian/locale/acitvesupport.yml",
-     "lib/ukrainian/locale/acitvesupport.yml",
      "test/test_helper.rb",
      "test/ukrainian_test.rb",
      "ukrainian.gemspec"
