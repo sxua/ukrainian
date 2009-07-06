@@ -1,3 +1,4 @@
+require File.join(File.dirname(__FILE__), 'ukrainian/backend/simple')
 require 'i18n'
 
 module Ukrainian
