@@ -3,8 +3,7 @@ module I18n
     class Simple
       protected
       def pluralize(locale, entry, count)
-        return entry unless entry.is_a?(Hash) and count
-        # raise InvalidPluralizationData.new(entry, count) unless entry.is_a?(Hash)
+        return entry unless entry.is_a?(Hash) and count        
         key = :zero if count == 0 && entry.has_key?(:zero)
         locale_pluralize = lookup(locale, :pluralize)
         if locale_pluralize && locale_pluralize.respond_to?(:call)
