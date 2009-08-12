@@ -7,10 +7,12 @@ begin
     gem.name = "ukrainian"
     gem.summary = "Ukrainian language support for Ruby and Rails"
     gem.email = "romanvbabenko@gmail.com"
+    gem.description = "Ukrainian language support for Ruby and Rails"
     gem.homepage = "http://github.com/romanvbabenko/ukrainian"
     gem.authors = ["romanvbabenko"]
     gem.files.include FileList['lib/**/*']
-    gem.add_dependency('i18n')
+    gem.add_development_dependency "thoughtbot-shoulda"    
+    gem.add_dependency "i18n"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 
