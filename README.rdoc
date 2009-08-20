@@ -1,40 +1,33 @@
-h2. Ukrainian
+= Ukrainian
 
 Ukrainian language support for Ruby & Ruby and Rails | Підтримка української мови для Ruby та Ruby on Rails
 
-h3. Що це і кому це може знадобиться?
+= Що це і кому це може знадобиться?
 
 Ukrainian - бібліотека повноцінної підтримки української мови(форматування дати та часу, плюралізації та інтернаціоналізації вцілому) 
 
-h3. Процес встановлення
+= Процес встановлення
 
-<pre><code>
-$  sudo aptitude install romanvbabenko-ukrainian
-</code></pre>
+  $ sudo gem install romanvbabenko-ukrainian
 
 config/environment.rb
-<pre><code>
-config.gem "romanvbabenko-ukrainian", :lib => "ukrainian",
-    :source => "http://gems.github.com"
-    
-...
 
-config.i18n.default_locale = :uk
-</code></pre>
+    config.gem "romanvbabenko-ukrainian", :lib => "ukrainian",
+      :source => "http://gems.github.com", :version => ">= 0.2.1"
 
-h3. Ruby on Rails
+    config.i18n.default_locale = :uk
+
+= Ruby on Rails
 
 Пакет мість в собі переклади стандартних бібліотек: ActionView, ActiveRecord, ActiveSupport, а також підтримку плюралізаціх для таких методів як *distance_of_time_in_words* та *distance_of_time_in_words_to_now*
 
-h3. Сторонні пакети
+= Сторонні пакети
 
 Крім стандартних бібліотек Ruby on Rails підтримуються також переклади пакетів сторонніх розробників:
-* "justinfrench/formtastic":http://github.com/justinfrench/formtastic/tree/master
+* {justinfrench/formtastic}[http://github.com/justinfrench/formtastic/tree/master]
 
-...
+Якщо у вас я власні переклади чи зауваження, то напишіть мені повідомлення через github, або на поштову скріньку {romanvbabenko@gmail.com}[mailto:romanvbabenko@gmail.com]
 
-Якщо у вас я власні переклади чи зауваження, то напишіть мені повідомлення через github, або на поштову скріньку "romanvbabenko@gmail.com":mailto:romanvbabenko@gmail.com
+= Copyright
 
-h3. Copyright
-
-Copyright (c) 2009 Roman V. Babenko. See LICENSE for details.
+Copyright (c) 2009 {Roman V. Babenko}[http://romanvbabenko.com]. See LICENSE for details.
