@@ -10,7 +10,7 @@ module Ukrainian
 
   protected
   def locale_path
-    File.join(File.dirname(__FILE__), 'ukrainian', 'locale', '**/*')
+    File.join(File.dirname(__FILE__), 'ukrainian', 'locales', '**/*')
   end
 
   def locale_files

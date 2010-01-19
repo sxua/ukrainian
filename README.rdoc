@@ -8,25 +8,34 @@ Ukrainian - бібліотека повноцінної підтримки ук�
 
 = Процес встановлення
 
-  $ sudo gem install romanvbabenko-ukrainian
+== Встановлюємо gemcutter(якщо Ви цього ще не зробили)
+
+  $ sudo gem install gemcutter
+  $ sudo gem tumble
+
+== Встановлюємо ukrainian
+
+  $ sudo gem install ukrainian
 
 config/environment.rb
 
-    config.gem "romanvbabenko-ukrainian", :lib => "ukrainian",
-      :source => "http://gems.github.com", :version => ">= 0.2.1"
+    config.gem "ukrainian", :lib => "ukrainian",
+      :source => "http://gemcutter.org", :version => ">= 0.2.1"
 
     config.i18n.default_locale = :uk
 
 = Ruby on Rails
 
-Пакет мість в собі переклади стандартних бібліотек: ActionView, ActiveRecord, ActiveSupport, а також підтримку плюралізаціх для таких методів як *distance_of_time_in_words* та *distance_of_time_in_words_to_now*
+Пакет містить в собі переклади стандартних бібліотек: ActionView, ActiveRecord, ActiveSupport, а також підтримку плюралізації для таких методів як *distance_of_time_in_words* та *distance_of_time_in_words_to_now*
 
 = Сторонні пакети
 
 Крім стандартних бібліотек Ruby on Rails підтримуються також переклади пакетів сторонніх розробників:
 * {justinfrench/formtastic}[http://github.com/justinfrench/formtastic/tree/master]
+* {josevalim/inherited_resources}[http://github.com/josevalim/inherited_resources]
+* {plataformatec/devise}[http://github.com/plataformatec/devise]
 
-Якщо у вас я власні переклади чи зауваження, то напишіть мені повідомлення через github, або на поштову скріньку {romanvbabenko@gmail.com}[mailto:romanvbabenko@gmail.com]
+Якщо у вас я власні переклади чи зауваження, то напишіть мені повідомлення через github, або на поштову скриньку {romanvbabenko@gmail.com}[mailto:romanvbabenko@gmail.com]
 
 = Copyright
 
