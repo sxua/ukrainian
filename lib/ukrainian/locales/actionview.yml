@@ -83,8 +83,8 @@ uk:
         many: "{{count}} хвилин"
         other: "{{count}} хвилини"
       about_x_hours:
-        one: "близько {{count}} година"
-        few: "близько {{count}} години"
+        one: "близько {{count}} години"
+        few: "близько {{count}} годин"
         many: "близько {{count}} годин"
         other: "близько {{count}} години"
       x_days:
