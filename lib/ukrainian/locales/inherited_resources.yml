@@ -2,9 +2,9 @@ uk:
   flash:
     actions:
       create:
-        notice: '{{resource_name}} було успішно створено.'
+        notice: '%{resource_name} було успішно створено.'
       update:
-        notice: '{{resource_name}} було успішно оновлено.'
+        notice: '%{resource_name} було успішно оновлено.'
       destroy:
-        notice: '{{resource_name}} було успішно видалено.'
-        alert: '{{resource_name}} не може бути видалено.'
+        notice: '%{resource_name} було успішно видалено.'
+        alert: '%{resource_name} не може бути видалено.'
