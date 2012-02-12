@@ -4,7 +4,7 @@ Ukrainian language support for Ruby & Ruby and Rails | Підтримка укр
 
 = Що це і кому це може знадобиться?
 
-Ukrainian - бібліотека повноцінної підтримки української мови(форматування дати та часу, плюралізації та інтернаціоналізації вцілому) 
+Ukrainian - бібліотека повноцінної підтримки української мови(форматування дати та часу, плюралізації та інтернаціоналізації вцілому)
 
 = Процес встановлення
 
@@ -35,7 +35,7 @@ config/environment.rb
 * {josevalim/inherited_resources}[http://github.com/josevalim/inherited_resources]
 * {plataformatec/devise}[http://github.com/plataformatec/devise]
 
-Якщо у вас я власні переклади чи зауваження, то напишіть мені повідомлення через github, або на поштову скриньку {romanvbabenko@gmail.com}[mailto:romanvbabenko@gmail.com]
+Якщо у вас є власні переклади чи зауваження, то напишіть мені повідомлення через github, або на поштову скриньку {romanvbabenko@gmail.com}[mailto:romanvbabenko@gmail.com]
 
 = Copyright
 
