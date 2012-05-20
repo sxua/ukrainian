@@ -7,15 +7,18 @@ uk:
       default: "%d.%m.%Y"
       short: "%d %b"
       long: "%d %B %Y"
-      
+
     day_names: [неділя, понеділок, вівторок, середа, четвер, "п'ятниця", субота]
     abbr_day_names: [нд., пн., вт., ср., чт., пт., сб.]
-      
+
     # Don't forget the nil at the beginning; there's no such thing as a 0th month
     month_names: [~, Січень, Лютий, Березень, Квітень, Травень, Червень, Липень, Серпень, Вересень, Жовтень, Листопад, Грудень]
     abbr_month_names: [~, січ., лют., бер., квіт., трав., черв., лип., серп., вер., жовт., лист., груд.]
     # Used in date_select and datime_select.
-    order: [ :day, :month, :year ]
+    order:
+      - :day
+      - :month
+      - :year
 
   time:
     formats:
