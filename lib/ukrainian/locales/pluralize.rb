@@ -1,5 +1,5 @@
 {
-  :uk => {
+  :ua => {
     :pluralize => lambda { |n|      
       modulo10 = n.modulo(10)
       modulo100 = n.modulo(100)

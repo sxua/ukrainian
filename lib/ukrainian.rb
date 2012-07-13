@@ -8,7 +8,7 @@ module Ukrainian
 
   def pluralize(n, *variants)
     raise ArgumentError, "Must have a Numeric as a first parameter" unless n.is_a?(Numeric)
-    I18n.backend.send(:pluralize, :uk, {:one => variants[0], :few => variants[1],
+    I18n.backend.send(:pluralize, :ua, {:one => variants[0], :few => variants[1],
       :many => variants[2], :other => variants[3] || variants[2]}, n)
   end
 

@@ -1,4 +1,4 @@
-uk:
+ua:
   devise:
     sessions:
       signed_in: 'Ви успішно увійшли до системи.'

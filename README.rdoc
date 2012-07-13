@@ -17,12 +17,13 @@ Ukrainian - бібліотека повноцінної підтримки ук�
 
   $ sudo gem install ukrainian
 
-config/environment.rb
+Gemfile
 
-    config.gem "ukrainian", :lib => "ukrainian",
-      :source => "http://gemcutter.org", :version => ">= 0.2.1"
+    gem 'ukrainian', github: 'sxua/ukrainian'
 
-    config.i18n.default_locale = :uk
+config/application.rb
+
+    config.i18n.default_locale = :ua
 
 = Ruby on Rails
 
